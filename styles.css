@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav input,
+header nav select,
+header nav button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header nav button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+header nav button:hover {
+    background-color: #003d80;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.producto button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.producto button:hover {
+    background-color: #218838;
+}
+
+.carrito {
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.carrito h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.producto-imagen {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#finalizar-compra {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#finalizar-compra {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+#finalizar-compra:hover {
+    background-color: #003d80;
+}
+

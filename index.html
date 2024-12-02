@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megamix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Megamix</h1>
+        <nav>
+            <input type="text" id="buscar" placeholder="Buscar productos...">
+            <select id="filtro-departamento">
+                <option value="">Todos los departamentos</option>
+                <option value="vestimenta">Vestimenta</option>
+                <option value="deportes">Deportes</option>
+                <option value="libros">Libros</option>
+            </select>
+            <button id="limpiar-filtros">Limpiar Filtros</button>
+            <button id="ver-carrito">Carrito</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos" class="productos">
+            <!-- Tarjetas de productos generadas dinámicamente con js -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda Megamix</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
