@@ -173,10 +173,19 @@ function manejarEventosCarrito(carrito) {
         window.location.href = "index.html"; // Redirigir a la página de inicio.
     });
 
-    document.getElementById("finalizar-compra").addEventListener("click", () => {
-        alert("Compra finalizada. Gracias por preferirnos.");
-        localStorage.removeItem("carrito");
-        window.location.href = "index.html";
+    document.addEventListener("click", (event) => {
+        //Mostrar alerta con SweetAlert
+        if (event.target.id === 'finalizar-compra'){
+            Swal.fire({
+                title: 'Compra finalizada.',
+                text: '¡Gracias por preferirnos!',
+                icon: 'success',
+                confirmButtonText: 'Aceptar'
+            }).then(()=>{
+                localStorage.removeItem("carrito");
+                window.location.href = "index.html";
+            });
+        }
     });
 }
 
