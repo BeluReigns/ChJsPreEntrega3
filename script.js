@@ -175,6 +175,7 @@ function manejarEventosCarrito(carrito) {
 
     document.addEventListener("click", (event) => {
         //Mostrar alerta con SweetAlert
+        //console.log()
         if (event.target.id === 'finalizar-compra'){
             Swal.fire({
                 title: 'Compra finalizada.',
