@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bicicleta spinning",
+        "precio": 5000,
+        "stock": 3,
+        "departamento": "deportes",
+        "rutaImagen": "BiciSpinning.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Calza deportiva",
+        "precio": 7000,
+        "stock": 15,
+        "departamento": "deportes",
+        "rutaImagen": "CalzaDeportiva.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Enterito burdeo",
+        "precio": 30000,
+        "stock": 20,
+        "departamento": "vestimenta",
+        "rutaImagen": "EnteritoBurdeo.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Jeans claros",
+        "precio": 25000,
+        "stock": 8,
+        "departamento": "vestimenta",
+        "rutaImagen": "JeansClaros.png"
+    },
+    {
+        "id": 5,
+        "nombre": "The cow",
+        "precio": 8000,
+        "stock": 15,
+        "departamento": "libros",
+        "rutaImagen": "Libro01.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Three Wishes",
+        "precio": 8000,
+        "stock": 15,
+        "departamento": "libros",
+        "rutaImagen": "Libro02.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Summer of two wishes",
+        "precio": 15000,
+        "stock": 15,
+        "departamento": "libros",
+        "rutaImagen": "Libro03.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Deception point",
+        "precio": 8000,
+        "stock": 15,
+        "departamento": "libros",
+        "rutaImagen": "Libro04.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Angels and demons",
+        "precio": 6000,
+        "stock": 2,
+        "departamento": "libros",
+        "rutaImagen": "Libro05.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Pantalón de buzo",
+        "precio": 15000,
+        "stock": 15,
+        "departamento": "deportes",
+        "rutaImagen": "PantalonBuzoGris.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Polera flamencos",
+        "precio": 10000,
+        "stock": 3,
+        "departamento": "vestimenta",
+        "rutaImagen": "PoleraFlamencos.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Polera cactus",
+        "precio": 8000,
+        "stock": 15,
+        "departamento": "vestimenta",
+        "rutaImagen": "PoleraCactus.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Polerón costillas",
+        "precio": 8000,
+        "stock": 30,
+        "departamento": "vestimenta",
+        "rutaImagen": "PoleronCostillas.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Polerón flores",
+        "precio": 18000,
+        "stock": 15,
+        "departamento": "vestimenta",
+        "rutaImagen": "PoleronFlores.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Polerón mickey",
+        "precio": 25000,
+        "stock": 20,
+        "departamento": "vestimenta",
+        "rutaImagen": "PoleronMickey.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Polerón morado",
+        "precio": 8000,
+        "stock": 4,
+        "departamento": "vestimenta",
+        "rutaImagen": "PoleronMorado.png"
+    },
+    {
+        "id": 17,
+        "nombre": "Vestido colores",
+        "precio": 16000,
+        "stock": 10,
+        "departamento": "vestimenta",
+        "rutaImagen": "VestidoColorpardo.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Vestido fuccia",
+        "precio": 27000,
+        "stock": 4,
+        "departamento": "vestimenta",
+        "rutaImagen": "VestidoFuccia.png"
+    },
+    {
+        "id": 19,
+        "nombre": "Vestido negroverdenar",
+        "precio": 15000,
+        "stock": 15,
+        "departamento": "vestimenta",
+        "rutaImagen": "VestidoNevenara.png"
+    }
+]
